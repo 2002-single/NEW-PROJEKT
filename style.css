@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT hoves";
+}
+section{
+    padding: 32px 121px 160px;
+}
+.logo{
+    width: 295px;
+    margin-bottom: 85px;
+}
+.info{
+    display: flex;
+    gap: 30px 161px;
+    flex-wrap: wrap;
+    margin-bottom: 78px;
+}
+.title{
+    font-size: 21px;
+    font-family: "TT hoves", sans-serif;
+    font-weight: 400;
+}
+.substitle{
+    font-size: 21px;
+    font-weight: 700;
+    font-family:"TT Hoves";
+}
+h1{
+    font-family: "Chava";
+    font-size:80px;
+    margin-bottom: 40px;
+}
+.description {
+    font-size: 27px;
+    max-width: 930px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+.btn_wrapper{
+    display: flex;
+    gap:20px 30px;
+}
+.btn_wrapper button{
+    width: 328px;
+    cursor: pointer;
+    padding: 20px 0;
+    border-radius: 12px;
+    border:2px solid #6E3ABA;
+    background-color:  #6E3ABA;
+    color:white;
+    font-size: 18px;
+}
+.btn_wrapper .secondary{
+    color:#6E3ABA;
+    background-color:white;
+}
